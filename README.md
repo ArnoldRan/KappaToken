@@ -25,7 +25,13 @@ cd $KAPPA_HOME
 ```
 
 ### Development
-
+Install modules for develop environment.
+```
+brew tap grpc/grpc
+brew install protobuf
+go get -u github.com/golang/protobuf/proto
+go get -u github.com/golang/protobuf/protoc-gen-go
+```
 
 ### Production
 
